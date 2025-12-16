@@ -11,6 +11,7 @@ const Background: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             minHeight: '100vh',
             display: 'flex',
             alignItems: 'center',
+            userSelect: 'none',
         }}>
 
 <Box sx={{
@@ -29,7 +30,7 @@ const Background: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 position: 'absolute',
                 inset: 0,
                 zIndex: 1,
-                opacity: 0.3,
+                opacity: 0.15,
             }}>
                 <AlbumCards />
             </Box>
