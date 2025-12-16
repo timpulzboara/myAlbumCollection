@@ -20,8 +20,8 @@ const Background: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 zIndex: 0, 
                 pointerEvents: 'none',
                 backgroundImage: `radial-gradient(
-                    circle at 10% 10%, 
-                    #242424 0%,       
+                    circle at 20% -5%, 
+                    #1E1C1C 0%,       
                     #000000 90%
                 )`,
             }} />
