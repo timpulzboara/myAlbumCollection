@@ -35,9 +35,16 @@ function Home() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                filter: `
-                drop-shadow(0px 1.5px 0.7px ${'#000000'}) 
-                `
+                
+                '&:focus': {
+                outline: 'none',
+                boxShadow: 'none',
+                },
+
+                '&:hover': {
+                backgroundColor: '#F3721D',
+                boxShadow: 'none',
+                }
             }}>
 
             <Typography sx={{
@@ -63,6 +70,10 @@ function Home() {
             >timpulzboara @ 2025</Typography>
 
         </Stack>
+
+            
+
+
     );
 };
 
