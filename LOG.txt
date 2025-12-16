@@ -1,0 +1,3 @@
+[16.12.2025]
+create the github repo for the web app
+objectives: create the UI concept from figma
