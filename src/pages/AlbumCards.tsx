@@ -55,7 +55,7 @@ function AlbumCards() {
             aspectRatio: '1/1',
             borderRadius: '8px',
             backgroundColor: '#282828',
-            backgroundImage: `url(${ALBUM_IMAGES_2022[i % ALBUM_IMAGES_2022.length]})`,
+            backgroundImage: `url(${ALBUM_IMAGES[i % ALBUM_IMAGES_2022.length]})`,
             backgroundSize: 'cover'
         }} />
     ))}
