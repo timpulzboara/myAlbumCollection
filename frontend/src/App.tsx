@@ -1,4 +1,5 @@
-import './App.css'
+import React from 'react';
+
 import Home from './pages/Home';
 import Background from './pages/Background';
 import { useState } from 'react';

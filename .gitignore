@@ -1,3 +1,15 @@
-node_modules
-dist
-.env
+# --- Frontend (React/Vite) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env
+
+# --- Backend (FastAPI/Python) ---
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/*.py[cod]
+
+# --- General ---
+.DS_Store
+LOG.txt

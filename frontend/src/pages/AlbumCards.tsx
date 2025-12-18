@@ -1,5 +1,5 @@
 // de aici apelam fast api ca sa luam albumele si sa le afisam in carduri, in fiecare zi random
-
+import React from 'react';
 import { Box } from "@mui/material";
 
 const ALBUM_IMAGES = [

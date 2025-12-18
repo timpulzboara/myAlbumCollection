@@ -1,5 +1,6 @@
 import { Stack, Typography, Button, TextField } from '@mui/material';
 import { useState } from 'react';
+import React from 'react';
 
 function Home() {
     const [step, setStep] = useState<'landing' | 'input'>('landing');
@@ -73,6 +74,7 @@ function Home() {
                         fontFamily: '"Helvetica"',
                         fontSize: '24px',
                         color: 'white',
+                        letterSpacing: '-1px',
                         fontWeight: 300
                     }}>
                         write the first album you think about

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Box, Stack } from '@mui/material';
-import AlbumCards from '../pages/AlbumCards';
+import AlbumCards from './AlbumCards';
 
 const Background: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         return(

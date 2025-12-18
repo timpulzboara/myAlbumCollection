@@ -3,3 +3,6 @@ created the github repo for the web app
 finished the first version of the home page
 
 [17.12.2025]
+added a step for the state where the user presses the button from the home page
+organized the web app in frontend and backend
+installed python in the project
